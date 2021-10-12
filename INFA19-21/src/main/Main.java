@@ -3,16 +3,16 @@ package main;
 public class Main {
 
     public static void main(String[] args){
-        Knower knower = new Knower("Знайка");
-        SmallMan smallMan1 = new SmallMan("Коротышка 1");
-        SmallMan smallMan2 = new SmallMan("Коротышка 2");
-        Vintik vintik = new Vintik("Винтик");
-        Shpuntik shpuntik = new Shpuntik("Шпунтик");
-        Pilulkin pilulkin = new Pilulkin("Пилюлькин");
-        Zvezdochkin zvezdochkin = new Zvezdochkin("Звездочкин");
-        Fuksia fuksia = new Fuksia("Фуксия");
-        Seledochka seledochka = new Seledochka("Селедочка");
-        Neznaika neznaika = new Neznaika("Незнайка");
+        Knower knower = new Knower(Names.ZNAIKA.getValue());
+        SmallMan smallMan1 = new SmallMan(Names.ZNAIKA.getValue());
+        SmallMan smallMan2 = new SmallMan(Names.ZNAIKA.getValue());
+        Vintik vintik = new Vintik(Names.ZNAIKA.getValue());
+        Shpuntik shpuntik = new Shpuntik(Names.ZNAIKA.getValue());
+        Pilulkin pilulkin = new Pilulkin(Names.ZNAIKA.getValue());
+        Zvezdochkin zvezdochkin = new Zvezdochkin(Names.ZNAIKA.getValue());
+        Fuksia fuksia = new Fuksia(Names.ZNAIKA.getValue());
+        Seledochka seledochka = new Seledochka(Names.ZNAIKA.getValue());
+        Neznaika neznaika = new Neznaika(Names.ZNAIKA.getValue());
         knower.doSomething();
         smallMan1.doSomething();
         smallMan2.doSomething();
