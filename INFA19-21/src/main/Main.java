@@ -4,15 +4,15 @@ public class Main {
 
     public static void main(String[] args){
         Knower knower = new Knower(Names.ZNAIKA.getValue());
-        SmallMan smallMan1 = new SmallMan(Names.ZNAIKA.getValue());
-        SmallMan smallMan2 = new SmallMan(Names.ZNAIKA.getValue());
-        Vintik vintik = new Vintik(Names.ZNAIKA.getValue());
-        Shpuntik shpuntik = new Shpuntik(Names.ZNAIKA.getValue());
-        Pilulkin pilulkin = new Pilulkin(Names.ZNAIKA.getValue());
-        Zvezdochkin zvezdochkin = new Zvezdochkin(Names.ZNAIKA.getValue());
-        Fuksia fuksia = new Fuksia(Names.ZNAIKA.getValue());
-        Seledochka seledochka = new Seledochka(Names.ZNAIKA.getValue());
-        Neznaika neznaika = new Neznaika(Names.ZNAIKA.getValue());
+        SmallMan smallMan1 = new SmallMan(Names.SMALLMAN1.getValue());
+        SmallMan smallMan2 = new SmallMan(Names.SMALLMAN2.getValue());
+        Vintik vintik = new Vintik(Names.VINTIK.getValue());
+        Shpuntik shpuntik = new Shpuntik(Names.SHPUNTIC.getValue());
+        Pilulkin pilulkin = new Pilulkin(Names.PILULKIN.getValue());
+        Zvezdochkin zvezdochkin = new Zvezdochkin(Names.ZVEZDOCHKIN.getValue());
+        Fuksia fuksia = new Fuksia(Names.FUKSIA.getValue());
+        Seledochka seledochka = new Seledochka(Names.SELEDOCHKA.getValue());
+        Neznaika neznaika = new Neznaika(Names.NEZNAIKA.getValue());
         knower.doSomething();
         smallMan1.doSomething();
         smallMan2.doSomething();
